@@ -1,0 +1,40 @@
+The provided C++ program offers a comprehensive suite of image processing functionalities, mirroring features commonly found in professional image editing applications. It enables users to load, edit, and save bitmap images (*.bmp files), offering a range of transformative effects and operations.
+
+Description:
+
+The provided C++ program offers a robust suite of image processing functionalities, echoing features commonly found in professional image editing applications. It allows users to load, edit, and save bitmap images (*.bmp files), offering a range of transformative effects and operations.
+
+Key Features:
+
+1. Image Loading and Saving:
+   - Users can load existing bitmap images into the program for editing and subsequently save the modified images.
+
+2. Editing Operations:
+   - A variety of editing operations are available, including:
+     - Black and White Conversion: Converts the image to grayscale and applies a threshold to create a black-and-white effect.
+     - Inversion: Inverts the colors of the image, turning dark pixels light and vice versa.
+     - Merging Images: Merges two loaded images into one by averaging their pixel values.
+     - Flipping: Offers both vertical and horizontal flipping options to mirror the image along the chosen axis.
+     - Rotation: Rotates the image by 90, 180, or 270 degrees clockwise.
+     - Brightness Adjustment: Allows for making the image darker or lighter by adjusting pixel values.
+     - Edge Detection: Detects edges in the image by identifying abrupt changes in pixel intensity.
+     - Enlargement: Enlarges a selected quadrant of the image by replicating pixels to fill the corresponding area.
+     - Blur: Applies a blurring effect to the image by averaging pixel values in a local neighborhood.
+     - Shuffling: Divides the image into four quadrants and rearranges them based on user-defined sequences.
+     - Mirroring: Mirrors the image horizontally or vertically.
+     - Cropping: Crops a rectangular region from the image, preserving the selected area and discarding the rest.
+     - Shrinking: Reduces the size of the image by sampling pixels at intervals to create a smaller version.
+     - Skewing: Skews the image horizontally or vertically based on user-specified angles.
+
+Usage:
+
+- Upon execution, the program prompts users to input filenames for the source image and the target image (for saving).
+- Users then choose from a menu of editing options to apply desired effects to the loaded image.
+- After editing, users have the option to continue editing or save the modified image and exit the program.
+Compatibility:
+
+The program is designed to handle grayscale bitmap images of dimensions 256x256 pixels. It leverages external libraries for bitmap file I/O operations (`bmplib.cpp` and `bmplib.h`), ensuring compatibility with BMP file formats.
+
+Conclusion:
+
+This versatile image processing program empowers users with a comprehensive set of tools to manipulate bitmap images, offering both basic transformations and more advanced editing functionalities akin to professional image editing software.
